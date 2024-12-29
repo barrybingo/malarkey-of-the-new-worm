@@ -6,6 +6,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: 'https://barrybingo.github.io/malarkey-of-the-new-worm/',
   build: {
     outDir: '../docs',
     emptyOutDir: true
